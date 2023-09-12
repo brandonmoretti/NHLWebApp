@@ -1,0 +1,291 @@
+body {
+    --nav-width: 200px;
+    margin: 0 0 0 var(--nav-width);
+    font-family: 'Futura', sans-serif;
+    font-size: 18px;
+    background-color: rgb(96, 153, 218);
+}
+
+
+.back {
+    padding: 10px 24px;
+    font-size: 40px;
+    background-color: aliceblue;
+    border-radius: 12px;
+}
+
+.back:hover {
+    scale: 120%;
+    transition: 1s;
+    background-color: rgb(170, 170, 207);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.back:active {
+    scale: 100%;
+    transition: 0.2s;
+}
+
+.back_button {
+    display: flex;
+    position:fixed;
+    
+    top: 50%;
+    left:50%
+}
+
+.start_button_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.start_button {
+    top: 50%;
+    padding: 32px 16px;
+    font-size: 100px;
+    background-color: transparent;
+    border-radius: 12px;
+    border: 6px solid black;
+}
+
+.start_button:hover {
+    background-color: blue;
+    scale: 120%;
+    transition: 1s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+   
+}
+
+.start_button:active {
+    scale: 100%;
+    transition: 0.2s;
+}
+
+.mode_buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    
+}
+
+.insta_sim {
+    top: 60%;
+    padding: 32px 16px;
+    font-size: 100px;
+    background-color: transparent;
+    border-radius: 12px;
+    border: 6px solid black;
+}
+
+.insta_sim:hover {
+    background-color: blue;
+    scale: 110%;
+    transition: 1s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+   
+}
+
+.insta_sim:active {
+    scale: 100%;
+    transition: 0.1s;
+}
+
+.weekly_sim {
+    top: 60%;
+    padding: 32px 16px;
+    font-size: 100px;
+    background-color: transparent;
+    border-radius: 12px;
+    border: 6px solid black;
+}
+
+.weekly_sim:hover {
+    background-color: blue;
+    scale: 110%;
+    transition: 1s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+   
+}
+
+.weekly_sim:active {
+    scale: 100%;
+    transition: 0.1s;
+}
+
+.advance_week {
+    display: flex;
+    position:fixed;
+    top: 75%;
+    left: 47%;
+    
+}
+
+.advance_week_button {
+    padding: 32px 16px;
+    font-size: 50px;
+    background-color: transparent;
+    border-radius: 12px;
+    border: 6px solid black;
+}
+
+.advance_week_button:hover {
+    background-color: blue;
+    scale: 110%;
+    transition: 1s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+   
+}
+
+.advance_week_button:active {
+    scale: 100%;
+    transition: 0.1s;
+}
+
+.start_header {
+    text-align: center;
+    text-shadow: 0px 0px 10px rgb(126, 126, 126);
+    font-size: 60px;
+}
+
+.full_season_header {
+    text-align: center;
+    font-size: 60px
+}
+
+
+
+.mode_header {
+    text-align: center;
+    font-size: 60px;
+}
+
+.week_header {
+    text-align: center;
+    font-size: 35px;
+}
+
+.atlantic_standings {
+    color: white;
+
+    font-size: 15px;
+    position: fixed;
+    top: 10%;
+    left: 5%;
+}
+
+.atlantic_standings:hover {
+    scale: 120%;
+    transition: 1s;
+  
+}
+
+.metro_standings {
+    color: white;
+
+    font-size: 15px;
+    position: fixed;
+    top: 56%;
+    left: 5%;
+}
+
+.metro_standings:hover {
+    scale: 120%;
+    transition: 1s;
+  
+}
+
+.central_standings {
+    color: white;
+
+    font-size: 15px;
+    position: fixed;
+    top: 10%;
+    right: 5%;
+}
+
+.central_standings:hover {
+    scale: 120%;
+    transition: 1s;
+  
+}
+
+.pacific_standings {
+    color: white;
+
+    font-size: 15px;
+    position: fixed;
+    top: 56%;
+    right: 5%;
+}
+
+.pacific_standings:hover {
+    scale: 120%;
+    transition: 1s;
+  
+}
+
+.scores {
+    text-align: center;
+    font-size: 10px;
+    
+}
+
+.scoresheet {
+    background-color: white;
+}
+
+.right_border {
+    position: fixed;
+    border-right: black;
+    border-width: 100px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    top: 0;
+    right: 0;
+    width: 500px;
+    height: 100vh;
+    background: #0e008d;
+}
+
+.left_border {
+    position: fixed;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    border-right: rgb(255, 255, 255);
+    border-width: 100px;
+    top: 0;
+    left: 0;
+    width: 500px;
+    height: 100vh;
+    background: #0e008d;
+}
+
+.home_button {
+    background-color: #0e008d;
+    color: white;
+    cursor: pointer;
+    border-color: transparent;
+    position: fixed;
+    size-adjust: 120%;
+    top: 6.7%;
+    left: 34%;
+    display: inline-flex;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.24), 0 17px 30px 0 rgba(0,0,0,0.19);
+}
+
+.home_button:hover {
+    background-color:#0a0068;
+    transition: 1s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#app {
+    margin: 2em;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+a {
+    color: rgb(59, 87, 97)
+}
